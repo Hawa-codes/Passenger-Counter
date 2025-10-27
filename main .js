@@ -1,3 +1,14 @@
+let countEl = document.getElementById("count")
+console.log(countEl)
+
+let count = 0;
 function increment() {
-    console.log("The button was clicked")
+    // console.log("clicked")
+    count = count + 1
+    countEl.innerText = count
 }
+
+function save() {
+    console.log(count)
+}
+ 
