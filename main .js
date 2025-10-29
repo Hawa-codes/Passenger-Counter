@@ -4,11 +4,16 @@ console.log(countEl)
 let count = 0;
 function increment() {
     // console.log("clicked")
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 
+let wordEl = document.getElementById("words")
 function save() {
+let name = count + " - ";
+wordEl.innerText += name;
     console.log(count)
 }
- 
+
+
+
