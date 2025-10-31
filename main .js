@@ -10,10 +10,8 @@ function increment() {
 
 let wordEl = document.getElementById("words")
 function save() {
-let name = count + " - ";
-wordEl.innerText += name;
-    console.log(count)
+    let name = count + " - ";
+    wordEl.textContent += name;
+    countEl.textContent = 0;
+    count = 0
 }
-
-
-
